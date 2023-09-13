@@ -38,7 +38,7 @@ InsightFace is an integrated Python library for 2D&3D face analysis. It efficien
 
 **Step 2** : Create a new environment
                 command : conda create -n facerecognition python==3.6.9 -y </br>
-                
+    ![image](https://github.com/ravi0dubey/Detectron_Image_Segmentation/assets/38419795/11f1831e-ed98-4074-8103-79dd617f501e)            
 **Step 3** : activate your environment  </br>
                 conda activate facerecognition  </br>
 **Step 4** : conda install -c anaconda mxnet </br>
