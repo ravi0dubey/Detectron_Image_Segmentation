@@ -29,13 +29,12 @@ InsightFace is an integrated Python library for 2D&3D face analysis. It efficien
             d. the do the installation using command "pip install labelme"
             e. execute command "labelme" to run labelme
             f. select the directory where all images are stored. In my case the directory name is label_mask
-            f. annotate the immage by creating polygon dot around the object. Below snapshot is of dog, so i created dots around the boundary and save it.
-            ![image](https://github.com/ravi0dubey/Detectron_Image_Segmentation/assets/38419795/11f1831e-ed98-4074-8103-79dd617f501e)
-            g. Image and the annotation file in .json format will be saved in the label_mask folder. 
-            h. now run "python labelme2coco.py label_mask" to convert the json format of annotation to coco format. Output coco format file trainval.json will get saved.
-            f. We need to create one folder called "data" and save trainval.json file in it and create one subfolder "images" which will save all images.
+            g. annotate the immage by creating polygon dot around the object. Below snapshot is of dog, so i created dots around the boundary and save it.
+            h. Image and the annotation file in .json format will be saved in the label_mask folder. 
+            i. now run "python labelme2coco.py label_mask" to convert the json format of annotation to coco format. Output coco format file trainval.json will get saved.
+            j. We need to create one folder called "data" and save trainval.json file in it and create one subfolder "images" which will save all images.
 
-                                   
+      ![image](https://github.com/ravi0dubey/Detectron_Image_Segmentation/assets/38419795/11f1831e-ed98-4074-8103-79dd617f501e)                             
 
 **Step 2** : Create a new environment
                 command : conda create -n facerecognition python==3.6.9 -y </br>
