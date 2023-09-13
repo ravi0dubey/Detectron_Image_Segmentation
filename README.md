@@ -48,33 +48,17 @@ Keeping pros of segmentation into consideration, in this project, the focus is t
 ![image](https://github.com/ravi0dubey/Detectron_Image_Segmentation/assets/38419795/11f1831e-ed98-4074-8103-79dd617f501e)            
                         
 **Step 2** : Create a new environment
-                command : conda create -n facerecognition python==3.6.9 -y </br>
+                command : conda create -n segment python==3.7 -y </br>
 **Step 3** : activate your environment  </br>
 
-                conda activate facerecognition  </br>
-**Step 4** : conda install -c anaconda mxnet </br>
+               conda activate segment  </br>
 
-**Step 5** : conda install -c conda-forge dlib </br>
-
-**Step 6** : Uninstall existing version of numpy and install numpy 1.16.1 version: </br>
-        pip uninstall numpy </br>
-        pip uninstall numpy </br>
-        pip install numpy==1.16.1 </br>
-
-**Step 7**:  Install requirements.txt in the newly created environment</br>
+**Step 4**:  Install requirements.txt in the newly created environment</br>
          pip install -r requirements.txt</br>
 
-**Step 8** : Installation and setup is done:</br>
-         a).  cd src</br>
-         b). python app.py</br>
+**Step 5** :  run the application:</br>
+             python app.py</br>
 
 
 ## Video link of project demo
-https://youtu.be/MKOaQu3aXSs
 
-## How project was designed and build
-1. **app.py->** Driver program of the project which invokes the camera and then call subsquent method from each modules to perform the operations of collecting pictures from camera,training it and prediction of the face . </br>
-2. **get_faces_from_camera.py->** Purpose is the get the 50 images from live feed of camera and crop the facial feature of the image and save it in 112 * 112 dimension </br> 
-3. **faces_embedding.py->** Purpose of this class is to convert image into numerical value and saving it in pickel format. This process is called Face Embedding </br>
-4. **train_softmax.py->** Purpose is to train the model using embeddings of the image. Model is trained in batchsize of 8 with 5 epochs. Relu activation for hidden layer and softmax for output layer. Saving the output as pickle format.</br>
-5. **facePredictor.py->** Purpose is to do the prediction of the face. </br>
