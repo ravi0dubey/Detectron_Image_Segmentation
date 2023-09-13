@@ -60,5 +60,4 @@ Keeping pros of segmentation into consideration, in this project, the focus is t
              python app.py</br>
 
 
-## Video link of project demo
 
