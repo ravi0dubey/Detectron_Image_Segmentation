@@ -5,18 +5,18 @@
 We need a solution where in model is able to detect the object be it person, animal or things(Car,bus etc) using the segmentation technique.
 
 ## What is Image Segmentation and why its better compared to bounding box object detection
-Image segmentation serves as a foundation for various applications such as object recognition, medical imaging, autonomous vehicles, and more. It aims to partition an input image into meaningful and homogeneous regions, enabling computers to understand and analyze the visual content within the image.
+Image segmentation serves as a foundation for various applications such as object recognition, medical imaging, autonomous vehicles, and more. It aims to partition an input image into meaningful and homogeneous regions, enabling computers to understand and analyze the visual content within the image. </br>
 
-a. It provides pixel-level accuracy, which allows for more precise object localization
-b. When we need to count and distinguish individual instances of the same object class within an image like identifying individual cells in a microscope image often requires segmentation.
-c. In case of irregular shapes, using bounding boxes can lead to a lot of empty space around the object. Segmentation, on the other hand, accurately captures the object's shape, reducing wasted space and improving efficiency.
+a. It provides pixel-level accuracy, which allows for more precise object localization. </br>
+b. When we need to count and distinguish individual instances of the same object class within an image like identifying individual cells in a microscope image often requires segmentation. </br>
+c. In case of irregular shapes, using bounding boxes can lead to a lot of empty space around the object. Segmentation, on the other hand, accurately captures the object's shape, reducing wasted space and improving efficiency.</br>
 
 ## Challenges of Image Segmentation compared to Bounding box object detection
 
-a. It is computationally Intensive especially when working with large images or real-time video streams. Bounding boxes are often more efficient.
-b  It is complex to develop and train the segmentation models, especially deep learning-based ones, can be complex and requires large datasets.
-c. It has some problem with accuracy as is is sensitive to image quality, noise, and variations in lighting and perspective. Bounding boxes can be more robust in some cases.
-d. Annotation Effort is typically more time-consuming and labor-intensive compared to drawing bounding boxes.
+a. It is computationally Intensive especially when working with large images or real-time video streams. Bounding boxes are often more efficient. </br>
+b  It is complex to develop and train the segmentation models, especially deep learning-based ones, can be complex and requires large datasets. </br>
+c. It has some problem with accuracy as is is sensitive to image quality, noise, and variations in lighting and perspective. Bounding boxes can be more robust in some cases. </br>
+d. Annotation Effort is typically more time-consuming and labor-intensive compared to drawing bounding boxes. </br>
 
 ## Solution Proposed
 Keeping pros of segmentation into consideration, in this project, the focus is to correctly detect the object using detectron2 (https://github.com/facebookresearch/detectron2) </br>
