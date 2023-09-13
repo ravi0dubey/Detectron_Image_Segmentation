@@ -2,21 +2,17 @@
 
 ## Problem Statement
 
-We need a solution where in model is not only able to detect the face whether its of human(s) or animal(s), it should also be able to identify their names.
-If we have 4 person and 2 animals (Cat,dog) whose faces gets clicked by the model and is stored in the system with the names of each person and the animals then once training happens model should be able to identify the person and the animals
-as soon as their faces appear on the camera.
+We need a solution where in model is able to detect the object be it person, animal or things(Car,bus etc)
 
 
 ## Solution Proposed
 
-In this project, the focus is to correctly detect the face and identify the face of the users/animals using deepinsight/InsightFace.
-InsightFace is an integrated Python library for 2D&3D face analysis. It efficiently implements a rich variety of state of the art algorithms of face recognition, face detection and face alignment, which optimized for both training and deployment. </br>
-**github link of InsightFace** https://github.com/deepinsight/insightface
+In this project, the focus is to correctly detect the object using detectron2 (https://github.com/facebookresearch/detectron2) </br>
 
 ## Tech Stack Used
 1. Python </br>
-2. MTCNN(Multi-task Cascaded Convolutional Networks)  https://pypi.org/project/mtcnn/
-3. Keras to train the model </br>
+2. model used is COCO-InstanceSegmentation/mask_rcnn_R_50_FPN_3x.yaml
+3. Torch</br>
   
 
 
