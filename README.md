@@ -27,7 +27,6 @@ Keeping pros of segmentation into consideration, in this project, the focus is t
 3. Torch</br>
   
 
-
 # How to run the project
 **Step 1** : We need to annotate the images using labelme in polygon format and convert the annotation in cocoformat used by detectron.
               
