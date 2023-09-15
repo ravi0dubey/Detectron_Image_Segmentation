@@ -23,7 +23,7 @@ Keeping pros of segmentation into consideration, in this project, the focus is t
 
 ## Tech Stack Used
 1. Python </br>
-2. model used is COCO-InstanceSegmentation/mask_rcnn_R_50_FPN_3x.yaml
+2. model used is COCO-InstanceSegmentation with Mask-RCNN(**mask_rcnn_R_50_FPN_3x.yaml**)
 3. Torch</br>
   
 
@@ -49,8 +49,7 @@ Keeping pros of segmentation into consideration, in this project, the focus is t
                         
 **Step 2** : Create a new environment
                 command : conda create -n segment python==3.7 -y </br>
-**Step 3** : activate your environment  </br>
-
+**Step 3** : activate your environment  
                conda activate segment  </br>
 
 **Step 4**:  Install requirements.txt in the newly created environment</br>
